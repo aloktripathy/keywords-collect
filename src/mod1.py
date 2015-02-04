@@ -1,3 +1,6 @@
 import human_size
 
-print(human_size.approximate_size(12345668, False))
+while True :
+    size = int(input("Size of the file: "))
+    mode = True
+    print(human_size.approximate_size(size, mode))
